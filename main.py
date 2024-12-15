@@ -7,7 +7,7 @@ import pandas as pd
 import math
 
 # Load model
-model = tf.keras.models.load_model('model/model2.h5')
+model = tf.keras.models.load_model('model/model.h5')
 
 # Preprocess the image
 def preprocess_image(image, target_size):
